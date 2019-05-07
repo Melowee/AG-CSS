@@ -1,0 +1,68 @@
+body {
+	background-image: url('https://melowee.github.io/Images/miku_transparent2.png'), url('https://melowee.github.io/Images/ia_transparent.png');
+	background-color: silver;
+	background-position: left 100px, right 100px;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 50%;
+	background-attachment: fixed;
+}
+
+header {
+	right: 200px;
+	width: calc(100% - 200px);
+	float: right;
+	z-index: 12;
+}
+
+li {
+	background-color: #2c2c2c;
+}
+
+#medialist-nav-tabs {
+	background-color: transparent;
+}
+
+#medialist-nav-tabs ul {
+	display: inline-grid;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+}
+
+#medialist-nav-tabs li {
+	width: 200px;
+	padding: 5px;
+}
+
+#medialist-options-menu {
+	z-index: 13;
+}
+
+.container {
+	width: 100%;
+	padding-right: 0px;
+}
+
+.media-grid-6, .btn-group {
+	width: calc(100% - 250px);
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-right: 15px;
+}
+
+.back-to-profil {
+	margin-left: 50px;
+}
+
+.user-info {
+	margin-top: 30px;
+}
+
+.anime-link {
+	opacity: 0;
+}
+
+.anime-link:hover {
+	opacity: 1;
+}
