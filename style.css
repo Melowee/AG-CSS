@@ -1,12 +1,12 @@
 body {
-	background-image: url('https://melowee.github.io/Images/miku_transparent2.png'), url('https://melowee.github.io/Images/ia_transparent.png');
+	background-image: url('https://melowee.github.io/Images/miku_transparent.png'), url('https://melowee.github.io/Images/ia_transparent.png');
 	background-color: silver;
 	background-position: left 100px, right 100px;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 50%;
 	background-attachment: fixed;
 }
-
+/*
 header {
 	right: 200px;
 	width: calc(100% - 200px);
@@ -66,3 +66,4 @@ li {
 .anime-link:hover {
 	opacity: 1;
 }
+*/
